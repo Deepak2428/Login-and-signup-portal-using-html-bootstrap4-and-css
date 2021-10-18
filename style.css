@@ -1,0 +1,175 @@
+
+
+
+/************ sign-in page****************/
+
+
+
+
+
+body.signin-page
+{
+    background-color: rgb(235, 248, 248);
+}
+
+div.topbar
+{
+    background-color: rgb(23, 23, 82);
+}
+div.topbar div.row div.col-md-2 img
+{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+div.topbar div.row div.col-md-10 h1,h3
+{
+    color: azure;
+    line-height: 30px;
+    margin-top: 2rem;
+}
+
+div.topbar div.row div.col-2
+{
+    text-align: center;
+}
+
+div.signin-portal
+{
+    margin-top: 8%;
+}
+div.signin-portal div.row  div.col-8.signin
+{
+    max-width: 490px;
+}
+div.signin-portal div.row div.col-8.signin div.card div.card-body
+{
+    box-shadow: 0 0 1px 2px rgba(0,0,0,0.75);
+    text-align: center;
+}
+
+div.signin-portal div.row div.col-8.signin div.card div.card-body img.img-fluid.signin-icon
+{
+    padding:8px 10px 30px 8px;
+    height:170px;
+    width:150px;
+}
+
+div.signin-portal div.row div.col-8.signin div.card div.card-body form input.btn.signin
+{
+    background-color: rgb(199, 51, 6);
+    color:azure;
+    border-radius: 3px;
+    margin-top: 2rem;
+    font-size: 20px;
+    padding:10px 80px 10px 80px ;
+    max-width: 250px;;
+}
+
+div.signin-portal div.row div.col-8.signin a.signup
+{
+    display:block;
+    text-align: center;
+    text-decoration:none;
+    margin-top: 5%;
+}
+
+div.signin-portal div.row div.col-8.signin div.card div.card-body form div.form-group
+{
+    
+    max-width: 300px;
+    margin: auto;
+    padding:10px;
+}
+
+@media (max-width: 1000px) {
+    div.topbar div.row div.col-md-10 h1,h3
+    {
+        line-height: 50px;
+        margin-left: 1rem;
+    }
+    div.topbar div.row div.col-md-2{
+        margin-left: 1rem;
+    }
+    
+}
+
+div.signin-portal div.row div.col-8.signin div.card
+{
+    opacity: 0.78;
+    
+    background-color:rgb(255, 253, 250);
+}
+
+
+
+
+
+
+
+/*************** sign-up page****************/
+
+
+body.signuppage
+{
+    background-color: rgb(235, 248, 248);
+}
+
+div.signup-portal div.row div.col-8 div.card div.card-body form div.form-group
+{
+    text-align: center;
+}
+div.form-group
+{
+    max-width: 380px;
+    margin:auto;
+    margin-top: 1rem;
+}
+div.signup-portal div.row
+{
+    margin-top:8%;
+}
+
+div.signup-portal div.row div.col-8 div.card
+{
+    text-align: center;
+}
+
+div.signup-portal div.row div.col-8
+{
+    max-width: 580px;
+}
+
+
+div.signup-portal div.row div.col-8 div.card div.card-body form input.btn.register
+{
+    background-color: rgb(199, 51, 6);
+    color:azure;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-top: 2rem;
+    padding:10px 80px 10px 80px ;
+    max-width: 250px;;
+}
+
+div.topbar div.row div.col-md-10 a
+{
+    display:block;
+    text-decoration: none;
+    text-align: right;
+    color: azure;
+    font-size: 30px;
+    margin-right: 2%;
+}
+
+div.topbar div.row div.col-md-10 a:hover{
+    color:brown;
+    transition: 0.7s;
+}
+
+div.signup-portal div.row div.col-8 div.card
+{
+    opacity: 0.78;
+    
+    background-color:rgb(255, 243, 224);
+}
